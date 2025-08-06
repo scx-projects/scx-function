@@ -13,25 +13,25 @@ public class ScxFunctionTest {
     public static void test1() throws Throwable {
 
         Function0 f1 = () -> null;
-        Function0V f2 = () -> {};
+        Function0Void f2 = () -> {};
         Function1 f3 = (a) -> null;
-        Function1V f4 = (a) -> {};
+        Function1Void f4 = (a) -> {};
         Function2 f5 = (a, b) -> null;
-        Function2V f6 = (a, b) -> {};
+        Function2Void f6 = (a, b) -> {};
         Function3 f7 = (a, b, c) -> null;
-        Function3V f8 = (a, b, c) -> {};
+        Function3Void f8 = (a, b, c) -> {};
         Function4 f9 = (a, b, c, d) -> null;
-        Function4V f10 = (a, b, c, d) -> {};
+        Function4Void f10 = (a, b, c, d) -> {};
         Function5 f11 = (a, b, c, d, e) -> null;
-        Function5V f12 = (a, b, c, d, e) -> {};
+        Function5Void f12 = (a, b, c, d, e) -> {};
         Function6 f13 = (a, b, c, d, e, f) -> null;
-        Function6V f14 = (a, b, c, d, e, f) -> {};
+        Function6Void f14 = (a, b, c, d, e, f) -> {};
         Function7 f15 = (a, b, c, d, e, f, g) -> null;
-        Function7V f16 = (a, b, c, d, e, f, g) -> {};
+        Function7Void f16 = (a, b, c, d, e, f, g) -> {};
         Function8 f17 = (a, b, c, d, e, f, g, h) -> null;
-        Function8V f18 = (a, b, c, d, e, f, g, h) -> {};
+        Function8Void f18 = (a, b, c, d, e, f, g, h) -> {};
         Function9 f19 = (a, b, c, d, e, f, g, h, i) -> null;
-        Function9V f20 = (a, b, c, d, e, f, g, h, i) -> {};
+        Function9Void f20 = (a, b, c, d, e, f, g, h, i) -> {};
 
 
         f1.apply();
