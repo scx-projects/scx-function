@@ -12,7 +12,7 @@
 
     <artifactId>scx-function</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1</version>
+    <version>0.1.0</version>
 
     <name>SCX Function</name>
     <url>https://github.com/scx-projects/scx-function</url>
